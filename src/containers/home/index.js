@@ -154,8 +154,7 @@ class Home extends React.Component {
             <tr>
               <th>#</th>
               <th>Family Name</th>
-              <th>Head Name</th>
-              <th>Total Members</th>
+              <th>Head Name</th>              
               <th>Expand</th>
             </tr>
           </thead>
@@ -167,8 +166,7 @@ class Home extends React.Component {
                 <tr>
                   <td>{index + 1}</td>
               <td>{family.familyName}</td>
-              <td>{family.name}</td>
-              <td>{family.totalMembers}</td>
+              <td>{family.name}</td>              
               <td><Button variant="light" onClick={(e)=> {this.setState({data: family})}}>Expand</Button></td>
                 </tr>
               )
