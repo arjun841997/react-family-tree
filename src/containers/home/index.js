@@ -211,11 +211,13 @@ class Home extends React.Component {
         </Button> */}
         
         {Object.keys(this.state.data).length > 0
-          ? <><Button onClick={this.save} variant="light">
+          ? <>
+          {/* <Button onClick={this.save} variant="light">
           Save As New
-        </Button>{this.renderFamilyTree()}</>
+        </Button> */}
+        {this.renderFamilyTree()}</>
           : null}
-        <Modal show={this.state.showModal} onHide={this.handleClose}>
+        <Modal show={false} onHide={this.handleClose}>
           <Modal.Header closeButton>
             <Modal.Title>Modal heading</Modal.Title>
           </Modal.Header>
