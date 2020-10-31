@@ -214,7 +214,7 @@ class Home extends React.Component {
         
         {Object.keys(this.state.data).length > 0
           ? <><Button onClick={this.save} variant="light">
-          Save
+          Save As New
         </Button>{this.renderFamilyTree()}</>
           : null}
         <Modal show={this.state.showModal} onHide={this.handleClose}>
