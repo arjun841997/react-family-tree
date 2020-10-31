@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Family Snapshot 1`] = `
+Array [
+  <div
+    className="username mb-3 input-group"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <span
+        className="input-group-text"
+        id="basic-addon1"
+      >
+        Family Name
+      </span>
+    </div>
+    <input
+      className="form-control"
+      id="familyName"
+      onChange={[Function]}
+      placeholder="Family Name"
+    />
+  </div>,
+  <div
+    className="username mb-3 input-group"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <span
+        className="input-group-text"
+        id="basic-addon1"
+      >
+        Family Head Name
+      </span>
+    </div>
+    <input
+      className="form-control"
+      id="familyHeadName"
+      onChange={[Function]}
+      placeholder="Family Head Name"
+    />
+  </div>,
+  <div
+    className="username mb-3 input-group"
+  >
+    <div
+      className="input-group-prepend"
+    >
+      <span
+        className="input-group-text"
+      >
+        Gender
+      </span>
+    </div>
+    <input
+      className="form-control"
+      id="gender"
+      onChange={[Function]}
+      placeholder="Gender"
+    />
+  </div>,
+  <button
+    className="btn btn-light"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Add Root Node
+  </button>,
+  <button
+    className="btn btn-light"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Save
+  </button>,
+]
+`;
