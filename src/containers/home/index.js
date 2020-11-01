@@ -114,7 +114,9 @@ class Home extends React.Component {
     }
     const data = { ...this.state.data }
     const selectedChild = getSelectedChild([data])
-    selectedChild.children.push(newChild)
+    
+      selectedChild.children.push(newChild)
+    
     this.setState({ data, showModal: false })
   }
 
